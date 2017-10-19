@@ -21,7 +21,7 @@ void test_case_test_runner::test_function_two_here() {
     test_case_lib test_case;
 
      qInfo("TMC:test_function_two_here.2");
-     QVERIFY(test_case.adding_ints(666, 1337) == 2003);
+     QVERIFY(test_case.adding_ints(0, 0) == 0);
 
 }
 
